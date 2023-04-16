@@ -66,12 +66,5 @@ margin-right:10px ;
     font-weight: 300;
 }
 .hero-btn{
-    font-size: 14px;
-    letter-spacing: .2rem;
-    font-family: "Oswald", sans-serif;
-    padding: 1rem 3rem;
-    background-color: $commoncolor;
-    color: white;
-    border: none;
-    border-radius: 10px;
+@include buttons;
 }

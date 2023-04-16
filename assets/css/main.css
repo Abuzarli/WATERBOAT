@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -102,4 +103,59 @@
   color: white;
   border: none;
   border-radius: 10px;
+}
+
+.about__us {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about__us img {
+  width: 550px;
+  height: 380px;
+}
+
+.about-title {
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: rgb(46, 139, 251);
+}
+
+.about-btn {
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  font-family: "Oswald", sans-serif;
+  padding: 1rem 3rem;
+  background-color: rgb(46, 139, 251);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.about__content {
+  width: 400px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.about__content h1 {
+  font-weight: 400;
+}
+
+.line {
+  border-bottom: 3px solid rgb(46, 139, 251);
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  color: rgb(128, 128, 128);
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=main.css.map */
