@@ -2,6 +2,7 @@
     padding: 5rem 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 .about__us img{
     width: 550px;
@@ -37,4 +38,23 @@
     font-weight: 300;
     font-size: 1.1rem;
     margin-bottom: 1rem;
+}
+.about-2{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+}
+.about-2 i{
+    color: $commoncolor;
+    font-size: 40px;
+}
+.about-2 h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-2 p{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: $graycolor;
+    width: 200px;
 }

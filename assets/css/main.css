@@ -109,6 +109,7 @@
   padding: 5rem 0;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .about__us img {
@@ -158,4 +159,27 @@
   font-weight: 300;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+}
+
+.about-2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Oswald", sans-serif;
+}
+
+.about-2 i {
+  color: rgb(46, 139, 251);
+  font-size: 40px;
+}
+
+.about-2 h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-2 p {
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: rgb(128, 128, 128);
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
