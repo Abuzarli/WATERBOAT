@@ -24,3 +24,15 @@
     border: none;
     border-radius: 10px;
 }
+@mixin specials{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: $commoncolor;
+}
+@mixin lines{
+    border-bottom: 3px solid $commoncolor;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

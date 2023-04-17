@@ -147,7 +147,7 @@
   font-weight: 400;
 }
 
-.line {
+.line-1 {
   border-bottom: 3px solid rgb(46, 139, 251);
   width: 50px;
   margin-top: 20px;
@@ -179,7 +179,64 @@
 
 .about-2 p {
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: rgb(128, 128, 128);
   width: 200px;
+  margin-bottom: 30px;
+}
+
+.about__facts__item {
+  font-family: "Oswald", sans-serif;
+  padding: 5em 0;
+  background-image: linear-gradient(rgb(46, 139, 251), rgb(46, 139, 251), rgba(46, 138, 251, 0.667), rgba(46, 138, 251, 0.667)), url(/assets/images/hero_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.facts-item {
+  text-align: center;
+}
+
+.facts-item h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.facts-item p {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.destinations {
+  text-align: center;
+}
+
+.destinations p {
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: rgb(46, 139, 251);
+}
+
+.destinations h1 {
+  font-size: 1.75rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+.line-2 {
+  border-bottom: 3px solid rgb(46, 139, 251);
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
