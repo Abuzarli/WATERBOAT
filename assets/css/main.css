@@ -48,6 +48,11 @@
   font-family: "Oswald", sans-serif;
 }
 
+.nav {
+  position: sticky;
+  top: 0;
+}
+
 .nav-item {
   font-size: 16px;
   letter-spacing: 0.05rem;
@@ -302,7 +307,6 @@
 }
 
 .booking {
-  border: 1px solid red;
   padding-left: 20%;
   padding-top: 10%;
 }
@@ -344,12 +348,12 @@ div input {
 
 .email {
   display: flex;
+  margin-top: 20px;
 }
 
 .email input {
   margin-right: 25px;
   margin-bottom: 20px;
-  margin-top: 20px;
   margin-left: 30px;
 }
 
@@ -370,4 +374,23 @@ div input {
   border: none;
   border-radius: 10px;
   margin-right: 210px;
+}
+
+.line-3 {
+  border-bottom: 3px solid rgb(46, 139, 251);
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+}
+
+.book-title {
+  margin-left: -290px;
+}
+
+.book-title p {
+  margin-left: -75px;
 }/*# sourceMappingURL=main.css.map */

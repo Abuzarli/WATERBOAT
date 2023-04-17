@@ -140,7 +140,6 @@
     justify-content: space-evenly;
 }
 .booking{
-    border: 1px solid red;
     padding-left:20%;
     padding-top: 10%;
 }
@@ -173,11 +172,12 @@ div input{
 }
 .email{
     display: flex;
+    margin-top: 20px;
 }
+
 .email input{
     margin-right: 25px;
     margin-bottom: 20px;
-    margin-top: 20px;
     margin-left: 30px;
 }
 #note{
@@ -190,4 +190,17 @@ div input{
 .book-btn{
     @include buttons;
     margin-right: 210px;
+}
+.line-3{
+    @include lines;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+.book-title{
+    margin-left: -290px;
+}
+.book-title p{
+    margin-left: -75px;
 }

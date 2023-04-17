@@ -30,6 +30,10 @@ margin-right:10px ;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+.nav{
+    position: sticky;
+    top: 0;
+}
 .nav-item{
    @include navbar;
 }
